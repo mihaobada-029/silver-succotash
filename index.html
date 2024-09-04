@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="ro">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pagina 1</title>
+    <link rel="stylesheet" href="filesNr1/styles.css">
+</head>
+<body>
+<div class="header">
+    <span>Sortează:</span>
+    <select>
+        <option value="bestseller">Bestseller</option>
+    </select>
+    <nav>
+        <a href="#">Te-ar putea interesa</a>
+        <a href="#">Noutăți</a>
+        <a href="#" class="active">Bestseller</a>
+        <a href="#">Cele mai votate</a>
+    </nav>
+</div>
+
+<div class="books">
+    <div class="book">
+        <img src="filesNr1/book1.png" alt="The Book of Bill (Gravity Falls)">
+        <h3>JOHN GRAY</h3>
+        <p>The Book of Bill (Gravity Falls)</p>
+        <div class="price">
+            <span class="discount">-12%</span>
+            <span class="price-new">105,71 LEI</span>
+            <span class="price-old">(120,52 LEI)</span>
+        </div>
+    </div>
+    <div class="book">
+        <img src="filesNr1/book2.png" alt="The Housemaid">
+        <h3>Freida McFADDEN</h3>
+        <p>The Housemaid</p>
+        <div class="price">
+            <span class="discount">-30%</span>
+            <span class="price-new">97,56 LEI</span>
+            <span class="price-old">(140,94 LEI)</span>
+        </div>
+    </div>
+    <div class="book">
+        <img src="filesNr1/book3.png" alt="A Navy SEAL's Bug-In Guide: How to Turn Your House into the Safest Place on Earth">
+        <h3>BRIAN TRACY</h3>
+        <p>A Navy SEAL's Bug-In Guide: How to Turn Your House into the Safest Place on Earth</p>
+        <div class="price">
+            <span class="discount">-12%</span>
+            <span class="price-new">85,19 LEI</span>
+            <span class="price-old">(96,45 LEI)</span>
+        </div>
+    </div>
+</div>
+
+<!--==========================================================================================================-->
+
+<div class="buttons">
+    <a href="automobile.html" class="button">Pagina 2</a>
+    <a href="produse.html" class="button">Pagina 3</a>
+    <a href="livrare.html" class="button">Pagina 4</a>
+    <style>.buttons {
+        margin-top: 30px;
+        text-align: center;
+    }
+
+    .button {
+        display: inline-block;
+        padding: 10px 20px;
+        margin: 0 10px;
+        background-color: #007BFF;
+        color: #fff;
+        text-decoration: none;
+        font-weight: bold;
+        border-radius: 5px;
+        transition: background-color 0.3s ease;
+    }
+
+    .button:hover {
+        background-color: #0056b3;
+    }
+    </style>
+</div>
+
+</body>
+</html>
